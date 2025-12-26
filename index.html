@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>STARKX Links</title>
+    <title>Amir Hosein Takmili</title>
     
     <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
@@ -15,7 +15,7 @@
         }
 
         body {
-            /* همان پس‌زمینه اصلی خودت */
+            /* اگر عکس پس‌زمینه متفاوتی برای پروفایل شخصی داری، اینجا اسمش رو عوض کن */
             background-image: url('bg.jpg'); 
             background-size: cover;
             background-position: center;
@@ -39,15 +39,17 @@
             text-align: center;
         }
 
-        /* لوگو: دقیقاً مثل عکس (توخالی و سفید) */
+        /* لوگو (نام امیرحسین تکمیلی) */
         .brand-title {
             font-family: 'BatmanForever', sans-serif;
-            font-size: 2.8rem;
+            /* چون اسم طولانی‌تریه، سایز رو کمی کوچکتر کردم که جا بشه */
+            font-size: 1.8rem; 
             margin: 0;
-            line-height: 1.2;
-            color: transparent; /* داخل متن خالی */
-            -webkit-text-stroke: 1.5px white; /* خط دور سفید */
-            text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* سایه مشکی برای خوانایی روی پس‌زمینه */
+            line-height: 1.4;
+            color: transparent; 
+            -webkit-text-stroke: 1px white; /* خط دور کمی ظریف‌تر برای خوانایی اسم */
+            text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            text-transform: uppercase; /* تبدیل به حروف بزرگ */
         }
 
         .tagline {
@@ -64,27 +66,21 @@
         .separator { margin: 0 6px; color: #888; }
 
         /* =========================================
-           استایل دکمه‌ها (Dark Wireframe Style)
-           طبق عکس ارسالی شما
+           استایل دکمه‌ها (همون استایل قبلی)
         ========================================= */
         .btn {
             display: flex;
             align-items: center;
-            justify-content: center; /* متن وسط‌چین (برای تمیزی در موبایل) */
+            justify-content: center; 
             position: relative;
             
-            /* پس‌زمینه: مشکی با شفافیت متوسط (طبق عکس) */
             background: rgba(0, 0, 0, 0.65); 
-            
-            /* بوردر: سفید نازک و شارپ */
             border: 1px solid rgba(255, 255, 255, 0.35);
             
             color: #fff;
             text-decoration: none;
             padding: 16px 20px;
             margin-bottom: 12px;
-            
-            /* گوشه‌ها: گردی کم (طبق عکس) */
             border-radius: 8px; 
             
             font-weight: 500;
@@ -93,18 +89,16 @@
             box-sizing: border-box;
             
             transition: all 0.2s ease;
-            backdrop-filter: blur(4px); /* کمی تاری برای خوانایی */
+            backdrop-filter: blur(4px); 
         }
 
-        /* واکنش هاور (ساده و شیک) */
         .btn:hover {
-            background: rgba(0, 0, 0, 0.85); /* تیره‌تر شدن */
-            border-color: #ffffff; /* سفید شدن کامل بوردر */
+            background: rgba(0, 0, 0, 0.85); 
+            border-color: #ffffff; 
             transform: translateY(-2px);
             box-shadow: 0 5px 15px rgba(0,0,0,0.5);
         }
 
-        /* آیکون‌ها سمت چپ فیکس */
         .btn i {
             font-size: 1.2rem;
             position: absolute;
@@ -112,23 +106,20 @@
             color: #ffffff;
         }
 
-        /* =========================================
-           دکمه دونیت (هماهنگ با سبک عکس)
-        ========================================= */
-        .donate-btn {
-            /* در عکس ارسالی، دکمه دونیت شبیه بقیه است اما حاشیه مشخص‌تری دارد */
-            background: rgba(255, 255, 255, 0.1); /* کمی روشن‌تر از بقیه */
-            border: 1.5px solid #ffffff; /* بوردر ضخیم‌تر و سفید کامل */
+        /* دکمه ویژه (مثل تماس یا سایت شخصی) */
+        .highlight-btn {
+            background: rgba(255, 255, 255, 0.1); 
+            border: 1.5px solid #ffffff; 
             font-weight: 700;
-            margin-bottom: 30px; /* فاصله بیشتر */
+            margin-bottom: 30px; 
         }
         
-        .donate-btn:hover {
-            background: #ffffff; /* در هاور سفید شود */
-            color: #000 !important; /* متن مشکی */
+        .highlight-btn:hover {
+            background: #ffffff; 
+            color: #000 !important; 
         }
         
-        .donate-btn:hover i {
+        .highlight-btn:hover i {
             color: #000 !important;
         }
 
@@ -143,54 +134,51 @@
 
     <div class="container">
         
-        <h1 class="brand-title">STARKX</h1>
+        <h1 class="brand-title">
+            AMIR HOSEIN<br>TAKMILI
+        </h1>
         
         <p class="tagline">
-            تولیدکننده محتوا <span class="separator">|</span> استریمر <span class="separator">|</span> گیمر
+            وب‌سایت شخصی <span class="separator">|</span> رزومه <span class="separator">|</span> ارتباط با من
         </p>
 
-        <a href="https://reymit.ir/starkxstream" class="btn donate-btn" target="_blank">
-            <i class="fas fa-heart"></i>
-            <span>حمایت مالی (Donate)</span>
+        <a href="https://amirhoseintakmili.ir" class="btn highlight-btn" target="_blank">
+            <i class="fas fa-globe"></i>
+            <span>وب‌سایت من (Website)</span>
         </a>
 
-        <a href="https://kick.com/starkxstream" class="btn" target="_blank">
-            <i class="fas fa-bolt"></i>
-            <span>KICK</span>
-        </a>
-
-        <a href="https://twitch.tv/starkxstream" class="btn" target="_blank">
-            <i class="fab fa-twitch"></i>
-            <span>TWITCH</span>
-        </a>
-
-        <a href="https://www.youtube.com/@starkxstream" class="btn" target="_blank">
-            <i class="fab fa-youtube"></i>
-            <span>YOUTUBE</span>
-        </a>
-
-        <a href="https://instagram.com/starkxstream" class="btn" target="_blank">
+        <a href="https://instagram.com/amir.hosein.takmili" class="btn" target="_blank">
             <i class="fab fa-instagram"></i>
             <span>INSTAGRAM</span>
         </a>
 
-        <a href="https://x.com/starkxstream" class="btn" target="_blank">
-            <i class="fa-brands fa-x-twitter"></i>
-            <span>X (TWITTER)</span>
+        <a href="#" class="btn" target="_blank">
+            <i class="fab fa-linkedin"></i>
+            <span>LINKEDIN</span>
         </a>
 
-        <a href="https://t.me/starkxstream" class="btn" target="_blank">
+        <a href="#" class="btn" target="_blank">
+            <i class="fab fa-github"></i>
+            <span>GITHUB</span>
+        </a>
+
+        <a href="#" class="btn" target="_blank">
             <i class="fab fa-telegram"></i>
             <span>TELEGRAM</span>
         </a>
-
-        <a href="https://discord.gg/KeFtyKU3rr" class="btn" target="_blank">
-            <i class="fab fa-discord"></i>
-            <span>DISCORD</span>
+        
+        <a href="#" class="btn" target="_blank">
+            <i class="fa-brands fa-x-twitter"></i>
+            <span>X (TWITTER)</span>
+        </a>
+        
+        <a href="mailto:email@example.com" class="btn" target="_blank">
+            <i class="fas fa-envelope"></i>
+            <span>EMAIL ME</span>
         </a>
 
         <footer>
-            © 2024 STARKX. All Rights Reserved.
+            © 2024 Amir Hosein Takmili
         </footer>
     </div>
 
